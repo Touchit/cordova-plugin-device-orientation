@@ -90,11 +90,18 @@
         <source-file src="src/wp/Compass.cs" />
     </platform>
 
-        <!-- windows8 -->
+      <!-- windows8 -->
     <platform name="windows8">
         <js-module src="src/windows8/CompassProxy.js" name="CompassProxy">
             <merges target="" />
         </js-module>
     </platform>
+
+  <!-- windows81 -->
+  <platform name="windows81">
+    <js-module src="src/windows8/CompassProxy.js" name="CompassProxy">
+      <merges target="" />
+    </js-module>
+  </platform>
 
 </plugin>
